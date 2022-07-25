@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;800&display=swap');
+
+
+*{box-sizing: border-box;
+margin: 0;
+
+}
+
+body{ font-family:'Be Vietnam Pro', sans-serif; 
+   ;
+width: 100%;
+padding:65px 165px;
+align-items: center;}
+
+header{ display: flex;
+justify-content: space-between;}
+
+#menu{display: none;}
+
+/* estilos para botones en general */
+button{display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    
+    width: 134px;
+    height: 44px;
+    
+    background: #F3603B;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: none;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+color: aliceblue;}
+
+button:hover{ background-color: white;
+color: #F3603B;
+cursor:pointer}
+
+header nav ul{ display: flex;
+list-style-type: none;
+text-decoration: none;}
+
+a{text-decoration: none;}
+
+header nav ul li {margin-left: 30px;
+display:inline-block;
+text-align: center;}
+
+header nav ul li:hover{color: #F3603B; cursor: pointer;}
+
+.section1{ display: flex;
+flex-direction: column;
+align-items: center}
+
+
+
+main section.section1 div{display: flex;}
+
+h2{ 
+    font-size: 58px;
+    line-height: 66px;
+    display: flex;
+    letter-spacing: -0.035em;
+    font-weight: 650;
+    color: #232C50;}
+
+.articulo1{width: 439px;
+    padding-top: 45px;
+    
+   }
+
+.section2{ display: flex;
+    flex-direction: column;
+    align-items: center}
+
+    main section.section2 div{display: flex;}
+
+.columna{display:flex;
+         flex-direction: column;
+        position: relative;
+        left: 50px;}
+
+.columbutton1{flex-wrap: wrap-reverse}
+
+.textobutton1{width: 337px;
+text-align: justify;
+position: relative;
+left: 25px;
+margin:auto;}
+
+/* .button1{width:39px;} */
+
+.columbutton2{flex-wrap: wrap-reverse}
+
+.textobutton2{width: 337px;
+position: relative;
+margin:auto;
+left: 25px;}
+
+.textosection2{
+    width: 337px;
+    display: flex;
+    flex-direction: column;
+    
+text-align: left;
+position: relative;
+right: 125px;
+}
+
+h3{width: 433px;
+    height: 88px;
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 114.6%;
+
+    
+    display: flex;
+    align-items: center;
+    
+    color: #232851;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+
+main section.section3{display: flex; 
+    flex-direction: column;
+    align-items: center}
+
+.avatars{ display: flex;
+    }
+
+#parrafosection3{ 
+    
+    height: 61px;
+    left: 553px;
+    top: 1510px;
+    
+    font-weight: 700;
+    font-size: 39.2143px;
+    line-height: 156.6%;
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
+    
+    color: #242E53;}
+
+    #avatar1{width: 300px;
+position: relative;
+right: 180px;}
+#avatar2{ width: 300px;
+    position: relative;
+    left: 10px;}
+#avatar3{width: 300px;
+position: relative;
+left: 180px;}
+
+#richard{ position:relative; 
+    left: 230px;
+bottom: 20px;}
+
+#ali{position:relative; 
+    left: 70px;
+bottom: 20px;}
+
+#anisha{position:relative; 
+    right: 130px;
+bottom: 20px;}
+
+#casifinal{ 
+   position: absolute; 
+   margin: 0px;
+    width: 100%;;
+    background-color:#F3603B;
+    height:150px;
+    display: flex;
+    align-items: center;
+   flex-direction: inline;
+  justify-content: space-between;
+  right: 0px;
+
+
+}
+
+
+#textocasifinal{
+    width: 438px;
+    height: 96px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.005em;
+    position:relative;
+    left: 150px;
+    color: #FFFFFF;
+}
+
+#botonblanco{background-color: white;
+color: #F3603B;
+position: relative;
+right: 50px;}
+
+@media (max-width:375px) {header nav ul{ visibility: hidden } 
+
+header button{display: none;}
+
+body{  box-sizing: border-box;
+    margin: 0;
+     width: 375px;
+     padding:35px 25px;
+     align-items:center;}
+
+    #menu{display: flex;
+    position: relative;
+    left: 350px;
+    height: 25px; ;
+    }
+
+.section1{ display: flex;
+    flex-direction:column-reverse;
+    align-items:center}
+
+#graficos{ display: flex;
+position: relative;
+left: 50px; 
+width: 450px;}
+
+.articulo1{ position:relative;
+top: 420px; 
+left: 200px;
+width: 100px;}
+
+#textosection2{ text-align: center;
+width: 200px;}
+
+.columna{align-items: center;
+width: 250px;
+position:relative;
+top: 850px;}
+
+
+    }
+
+
